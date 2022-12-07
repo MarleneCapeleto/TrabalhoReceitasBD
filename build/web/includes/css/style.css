@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 de dez. de 2022, 19:33:39
+    Author     : Marlene Capeletto
+*/
+.imagem-carousel{
+    object-position:0 80%;
+    object-fit: cover;
+    height: 400px;
+
+}
+.font-titulo{
+   font-family: 'Pacifico', cursive;
+}
+.cor-titulo{
+    background-color: #d63384;
+}

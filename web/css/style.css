@@ -1,0 +1,63 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 de nov. de 2022, 22:54:41
+    Author     : Marlene Capeletto
+*/
+header{
+    background-color: #000;
+    width:100%;
+    height:150px;
+    border-bottom:3px solid #00d20f;
+}
+.logo{
+    padding:10px 10px;
+}
+.box{
+    width:100%;
+    height:500px;
+    display:table;
+    background-color: #fff;
+}
+.box h2{
+    padding:10px 10px;
+    border-bottom:1px solid #00d20f;
+    width:40%;
+    color:#fff;
+}
+footer{
+    width:100%;
+    height:50px;
+    background-color: #666;
+    border-top:3px solid #666;
+    text-align:center;
+}
+.card-posisao-img{
+    object-fit: cover;
+    height: 200px;
+}
+
+.img-container{
+   width: 300px;
+   height: 200px;
+   overflow: hidden;
+   border: 2px solid #000;
+}
+
+.img-container img{
+   width: 100%;
+   height: 100%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.img-container:hover img{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.font-titulo{
+   font-family: 'Pacifico', cursive;
+}
